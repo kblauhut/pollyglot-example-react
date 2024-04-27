@@ -1,7 +1,18 @@
-import "./App.css";
+// import { Stack, styled } from "panda-css/jsx";
+import { css } from "panda-css/css";
 
-function App() {
-  return <></>;
-}
+const a = css({
+  color: "red",
+  "&:hover": {
+    color: "blue",
+  },
+});
 
-export default App;
+export const App = () => {
+  return (
+    <div>
+      <div className={a}>HELLO</div>
+      <div className={a}>WORLD</div>
+    </div>
+  );
+};
