@@ -1,1 +1,8 @@
 @layer reset, base, tokens, recipes, utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: #18181b;
+  background: #fafafa;
+}
