@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "pollyglot-example-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.6.5"
   },
   "devDependencies": {
     "@pandacss/dev": "^0.37.2",
